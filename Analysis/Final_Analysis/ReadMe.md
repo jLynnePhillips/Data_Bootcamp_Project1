@@ -30,4 +30,4 @@
                 a. Revisit Correlation between Hospital Ownerships and Hospital Ratings taking into consideration the number of hospitals per Ownersip Type.
                 (Per question during presentation on do we know how many hospitals are there per Ownership Type in the data set.)
             Visualizations derived :
-                a. HospitalType_Rating_BoxPlot_New.png
+                a. HospitalType_Rating_BoxPlot_revised.png
