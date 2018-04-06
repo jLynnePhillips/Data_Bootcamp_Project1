@@ -25,7 +25,7 @@
             Visualizations derived :
                 a. Correlation_Graphs.png
                 b. HospitalType_Rating_BoxPlot.png
-        3.  Hospital ownership - new boxplot.ipynb
+        3.  Hospital Ratings vs Ownership Analysis - Revised.ipynb
             Analysis to answer :
                 a. Revisit Correlation between Hospital Ownerships and Hospital Ratings taking into consideration the number of hospitals per Ownersip Type.
                 (Per question during presentation on do we know how many hospitals are there per Ownership Type in the data set.)
