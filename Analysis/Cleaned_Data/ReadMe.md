@@ -1,6 +1,7 @@
-This folder contains the cleaned up data sets ready for to be used for final analysis.
 
-Hospital Ratings file cleanup:
+#### This folder contains the cleaned up data sets ready for to be used for final analysis.
+
+#### Hospital Ratings file cleanup:
 
     Original File =  HCAHPS-CA-Hospital.xlsx
     Deleted following columns :
@@ -18,7 +19,9 @@ Hospital Ratings file cleanup:
         Renamed the column names from Original HCAHPS Measure ID to layman readable terms
         Also changed the data type of the ratings to int (Integer) [by default they are all strings]
 
-Hospital General Information Data Set Clean up:
+    *** Jupyter Notebook Reference : Hospital Rating Cleanup - Naz.ipynb ***
+
+#### Hospital General Information Data Set Clean up:
 
     Original File = Hospital General Information.csv
     Deleted following columns :
@@ -42,8 +45,10 @@ Hospital General Information Data Set Clean up:
             Address,City,State,ZIP Code,
             County Name,Phone Number,
             Hospital Type,Hospital Ownership
+        
+        *** Jupyter Notebook Reference : HospitalGeneralInformation.ipynb ***
 
-County Rankings File cleanup:
+#### County Rankings File cleanup:
 
     Original File = 2016 County Health Rankings California Data - v3.xls
     This workbook had wide range of data in separate sheets.
@@ -66,8 +71,14 @@ County Rankings File cleanup:
             % Not Proficient in English,Population
     For our final analysis we ended up using only the County_income_df.csv data set.
 
-Merging of data sets:
+    *** Jupyter Notebook Reference : ca_health_county.ipynb ***
+
+
+#### Merging of data sets:
+
     We wanted to have one data set with HCAHPS Scores for each hospital, along with Hospital Type.
         This was accomplished by merging :
             Hospital Ratings.csv and  Hospital Type Ownership info.csv
     Outcome :- Hospital Ratings Merged.csv 
+
+    *** Jupuyter Notebook Reference : Hospital Ratings_Type Merged.ipynb ***
